@@ -32,3 +32,15 @@ J2,4,10,0
 ## Baseline
 
 This repository preserves the baseline implementation required by the original DE assignment before a later research-oriented enhancement is selected and implemented.
+
+
+## Research extension
+
+The live `main` version now includes **Disruption-Severity-Aware Rescheduling**. The original baseline remains preserved on the `baseline-v1` branch.
+
+The research version can switch between:
+
+- **Severity-Aware**
+- **Always Reschedule (Baseline)**
+
+This allows the same scenario to be used for a controlled comparison.
